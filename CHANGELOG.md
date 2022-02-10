@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.2 (2022-02-10)
+### Fix
+* Increase precision by 1 ([`7e3baa8`](https://github.com/Datateer/adjust-precision-for-schema/commit/7e3baa87721f0d758943024048372ff7d0819ceb))
+
 ## v0.3.1 (2022-02-10)
 ### Fix
 * Version conflict w/ jsonschema ([`1edaf0b`](https://github.com/Datateer/adjust-precision-for-schema/commit/1edaf0bbbaf6203c911842f60d49f225d5807da3))
