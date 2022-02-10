@@ -2,6 +2,11 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.4 (2022-02-10)
+### Fix
+* Loosen jsonschema version ([`c03fb08`](https://github.com/Datateer/adjust-precision-for-schema/commit/c03fb08e4d643e19a80d9431c7cc1b8abe44b910))
+* Loosen jsonschema version ([`099f832`](https://github.com/Datateer/adjust-precision-for-schema/commit/099f832da96807a1c8536c29d73ebae99df93bcb))
+
 ## v0.3.3 (2022-02-10)
 ### Fix
 * Increase precision by 1 ([`234b13b`](https://github.com/Datateer/adjust-precision-for-schema/commit/234b13b8084ad61558e52464a69685ba2e5d4952))
