@@ -34,7 +34,7 @@ def test_changes_decimal_context_to_handle_high_precision():
 
     with decimal.localcontext() as ctx:
         adjust_decimal_precision_for_schema(schema, context=ctx)
-        assert ctx.prec == calc_digits(precision_under_test)
+        assert ctx.prec == 1 + calc_digits(precision_under_test)
 
 
 def test_validates_after_walking_schema():

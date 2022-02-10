@@ -57,7 +57,7 @@ def adjust_decimal_precision_for_schema(schema, context=None):
                 maximum=schema.get("maxium"),
                 multiple_of=schema.get("multipleOf"),
             )
-            precision = digits + scale
+            precision = 1 + digits + scale
             if context.prec < precision:
                 logger.debug("Setting decimal precision to {}".format(precision))
                 context.prec = precision

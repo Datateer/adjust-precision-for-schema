@@ -12,7 +12,7 @@ repos:
     hooks:
       - id: tests
         name: tests
-        entry: poetry run coverage run -m pytest && poetry run coverage report -m --fail-under=90
+        entry: poetry run pytest
         language: system
         types: [python]
         pass_filenames: false
