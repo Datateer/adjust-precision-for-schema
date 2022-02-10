@@ -1,13 +1,14 @@
 [tool.poetry]
 name = "adjust-precision-for-schema"
-version = "0.2.0"
+version = "0.3.1"
 description = "Intended for use in singer-io targets to overcome the precision differences among certain data source systems, Python, and target systems"
 authors = ["Datateer <dev@datateer.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-jsonschema = "^4.4.0"
+jsonschema = "2.6.0"
+
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.0"
