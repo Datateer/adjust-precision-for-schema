@@ -15,3 +15,4 @@ This project encapsulates and improves that functionality in a standalone reposi
 
 - run `poetry install`
 - run `poetry run pre-commit install`
+- run `poetry rn pre-commit install --hook-type commit-msg`
