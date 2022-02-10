@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.3 (2022-02-10)
+### Fix
+* Increase precision by 1 ([`234b13b`](https://github.com/Datateer/adjust-precision-for-schema/commit/234b13b8084ad61558e52464a69685ba2e5d4952))
+
 ## v0.3.2 (2022-02-10)
 ### Fix
 * Increase precision by 1 ([`7e3baa8`](https://github.com/Datateer/adjust-precision-for-schema/commit/7e3baa87721f0d758943024048372ff7d0819ceb))
