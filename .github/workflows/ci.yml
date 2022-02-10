@@ -43,7 +43,7 @@ jobs:
   Release:
     needs: Quality
     # https://github.community/t/how-do-i-specify-job-dependency-running-in-another-workflow/16482
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && github.ref == 'refs/heads/main'
     concurrency: release
     runs-on: ubuntu-latest
     steps:
